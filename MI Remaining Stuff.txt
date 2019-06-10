@@ -1,0 +1,12 @@
+1) Know when a blank tile is sent from the opponent (for the sack of simulation)				DONE
+2) Finish formatMyMove												DONE
+3) Make preEnd time dependant on the remaining time								DONE
+4) Fix blank tile generation											DONE
+5) Format opponent move, start from start index and keep inserting in every empty slot				DONE
+6) When opponent challenge succeeds, we return the tiles we just played into our hand again as if we passed	DONE
+7) Calculated the score for the move only once and store it inside the object					DONE
+8) Fix and fully test Score
+9) Implement another score calculating function to validate the first one
+10) Return first and second best moves instead of only the first
+11) Check board constructors for the addition of a blank tile
+12) When to Exchange?

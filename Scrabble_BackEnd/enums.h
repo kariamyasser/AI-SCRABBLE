@@ -1,0 +1,35 @@
+#pragma once
+enum MessageTypes {
+	NAME = 0,
+	START = 1,
+	PASS = 2,
+	EXCHANGE = 3,
+	PLAY = 4,
+	NO_CHALLENGE = 5,
+	CHALLENGE = 6,
+	CHALLENGE_ACCEPTED = 7,
+	CHALLENGE_REJECTED = 8,
+	INVALID = 9,
+	END = 10
+};
+enum States {
+	INIT = 0,
+	READY = 1,
+	IDLE = 2,
+	THINKING = 3,
+	AWAIT_EXCHANGE_RESPONSE = 4,
+	AWAIT_PLAY_RESPONSE = 5,
+	AWAIT_AGENT_CHALLENGE = 6,
+	AWAIT_CHALLENGE_RESPONSE = 7
+};
+enum EndReasons {
+	ALL_TILES_USED = 0,
+	TIME_ENDED = 1,
+	CONNECTION_ERROR = 2,
+	STOP_BUTTON_PRESSED = 3
+};
+
+enum Mode {
+	training = 0,
+	learning = 1
+};
